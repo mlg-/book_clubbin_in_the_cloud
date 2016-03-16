@@ -7,6 +7,7 @@ gem 'rake'
 gem 'sinatra'
 gem 'sinatra-activerecord'
 gem 'rspec'
+gem 'puma'
 
 group :test, :development do
   gem 'pry'
