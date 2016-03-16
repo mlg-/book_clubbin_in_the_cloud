@@ -20,7 +20,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: book_club_test
+  database: book_club_production
   pool: 5
   username:
   password:
