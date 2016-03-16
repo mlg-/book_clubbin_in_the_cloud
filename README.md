@@ -14,5 +14,5 @@ Then `heroku open` to check out your handiwork!
 
 #Debugging Deployment
 
-- Run `heroku logs --tail` to see the log for your app in realtime. This helps you asses if an error is occurring.
+- Run `heroku logs --tail` to see the log for your app in realtime. This helps you assess if an error is occurring.
 - Make sure no errors popped up when you ran `git push heroku master`! Read the messages carefully and review the log from each deploy after it occurs.
