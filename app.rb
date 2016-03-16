@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'sinatra/activerecord'
+require './config/database'
 
 Dir['app/**/*.rb'].each { |file| require_relative file }
 set :views, 'app/views'
