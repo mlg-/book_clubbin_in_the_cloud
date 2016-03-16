@@ -8,6 +8,7 @@ gem 'sinatra'
 gem 'sinatra-activerecord'
 gem 'rspec'
 gem 'puma'
+gem 'heroku'
 
 group :test, :development do
   gem 'pry'
