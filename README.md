@@ -15,5 +15,5 @@ Then `heroku open` to check out your handiwork!
 #Debugging Deployment
 
 - Run `heroku logs --tail` to see the log for your app in real time. This helps you assess if an error is occurring. Read the error the same way that you would read one in your Terminal buffer while the app is running--it has valuable information!
-- If you're hitting an error in your application, take some time to try to reproduce the problem locally in your development environment. If you cannot, ask yourself what is different. Are there environmen variables that you need to add to your Heroku settings? Are you missing data in your production environment that you have locally because you created records via a form or console?
+- If you're hitting an error in your application, take some time to try to reproduce the problem locally in your development environment. If you cannot, ask yourself what is different. Are there environment variables that you need to add to your Heroku settings? Are you missing data in your production environment that you have locally because you created records via a form or console?
 - Make sure no errors popped up when you ran `git push heroku master`! Read the messages carefully and review the log from each deploy after it occurs. If you see an error and you don't know what it means, paste it into Google and try to find out.
